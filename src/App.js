@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import pages
 import Home from './pages/Home'
-// import About from './pages/About'
+import About from './pages/About'
 // import SingleCocktail from './pages/SingleCocktail'
 
 //import component
@@ -15,6 +15,8 @@ function App () {
             <Navbar />
             <Routes>
                 <Route path="/" element={<Home />}/>
+                <Route path="/about" element={<About />}/>
+                
             </Routes>
         </BrowserRouter>
     )

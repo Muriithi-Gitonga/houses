@@ -49,6 +49,8 @@ Variables
     list-style-type: none;
   }
 
+  
+
   .navbar {
     background: var(--mainWhite);
     height: 5rem;
@@ -70,11 +72,47 @@ Variables
   .nav-links {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+  }
+  .nav-links a {
+    text-transform: capitalize;
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 0.5rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    padding: 0.25rem 0.5rem;
+    transition: var(--mainTransition);
   }
 
   .nav-links a:hover {
     color: var(--primaryColor);
   }
+
+  .about-section {
+    width: var(--smallWidth);
+    max-width: var(--maxWidth);
+    margin: 0 auto;
+  }
+  .about-section p {
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+  }
+
+  .section {
+    padding: 5rem 0;
+  }
+  .section-title {
+    font-size: 2rem;
+    text-transform: capitalize;
+    letter-spacing: var(--mainSpacing);
+    text-align: center;
+    margin-bottom: 3.5rem;
+    margin-top: 1rem;
+  }
+ 
 
 
 

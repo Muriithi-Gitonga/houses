@@ -1,13 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+import {FaHouseUser} from "react-icons/fa"
 
 const Navbar = () => {
   return (
     <nav className='navbar'>
       <div  className='nav-center'>
         <Link to='/'>
-        <i>HOUSES</i>
+        <FaHouseUser  className='logo' />
         </Link>
         <ul className='nav-links'>
           <li>
