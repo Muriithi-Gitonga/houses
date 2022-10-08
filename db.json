@@ -5,7 +5,7 @@
         "location":"Kinoo",
         "category": "2 bedroom",
         "price": "2.3M",
-        "owner-contact":"07202435364",
+        "contact":"07202435364",
         "image":"https://i.postimg.cc/Px0SLp0D/image.jpg"
 
       },
@@ -14,7 +14,7 @@
         "location":"Juja",
         "category": "Bedsitters",
         "price": "4.3M",
-        "owner-contact":"07102435364",
+        "contact":"07102435364",
         "image":"https://i.postimg.cc/Px0SLp0D/image.jpg"
       },
       {
@@ -22,7 +22,7 @@
         "location":"Ruiru",
         "category": "1 bedroom",
         "price": "0.3M",
-        "owner-contact":"07092435364",
+        "contact":"07092435364",
         "image":"https://i.postimg.cc/Px0SLp0D/image.jpg"
       },
       {
@@ -38,7 +38,7 @@
         "location":"Jamhuri",
         "category": "5 bedroom",
         "price": "20.3M",
-        "owner-contact":"07202435364",
+        "contact":"07202435364",
         "image": "https://i.postimg.cc/prgJdwhJ/66d9f5afdc5337d3f9eac362b970c426.jpg"
       },
       {
@@ -46,7 +46,7 @@
         "location":"Kabiria",
         "category": "3 bedroom",
         "price": "4M",
-        "owner-contact":"07202435364",
+        "contact":"07202435364",
         "image": "https://i.postimg.cc/ZnY1cyVM/image.jpg"
       }
     ]
