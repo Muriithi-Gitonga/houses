@@ -15,7 +15,7 @@ const SingleHouse = () => {
         fetchSingleHouse()
     }, [id])
 
-    const {place,picture} = singleHouse
+    const {place,picture, size, budget, contacts} = singleHouse
     
     return (
         <section className="section house-section">
@@ -23,10 +23,22 @@ const SingleHouse = () => {
             <h2 className="section-title">{place}</h2>
             <div className="single-house">
                 <img src={picture} alt='houseimage'/>
-                <div className="house-info">
+                <div className="single-house-info">
                 <p>
-                    <span className="house-data">Location: </span>
+                    <span className="singe-house-data">location: </span>
                     {place}
+                 </p>
+                 <p>
+                    <span className="singe-house-data">size: </span>
+                    {size}
+                 </p>
+                 <p>
+                    <span className="singe-house-data">price: </span>
+                    {budget}
+                 </p>
+                 <p>
+                    <span className="singe-house-data">contact: </span>
+                    {contacts}
                  </p>
 
                 </div>

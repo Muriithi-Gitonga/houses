@@ -261,22 +261,29 @@ Variables
     text-align: left;
   }
 
-  .house p {
+  .single-house p {
     font-weight: bold;
     text-transform: capitalize;
     line-height: 1.8;
   }
 
-  .house img {
+  .single-house img {
     border-radius: var(--mainBorderRadius);
   }
 
-  .house span {
+  .single-house span {
     margin-right: 0.5rem;
   }
 
-  .house-info {
+  .single-house-info {
     padding-top: 2rem;
+  }
+
+  .single-house-data {
+    background: var(--primaryLightColor);
+    padding: 0.25rem 0.5rem;
+    border-radius: var(--mainBorderRadius);
+    color: var(--primaryColor);
   }
 
   @media screen and (min-width: 992px) {
@@ -286,7 +293,7 @@ Variables
       gap: 3rem;
       align-items: center;
     }
-    .house-info {
+    .single-house-info {
       padding-top: 0;
     }
   }
