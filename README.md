@@ -14,7 +14,7 @@ to access this project on your local files, you can clone it using this steps
 
   Open the Terminal
 
-Clone the repository:git@github.com:git@github.com:Muriithi-Gitonga/houses.git
+Clone the repository: <a>git@github.com:Muriithi-Gitonga/houses.git</a>
 
 Change Directory: cd houses
 
