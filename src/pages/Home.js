@@ -4,6 +4,7 @@ import HouseList from "../components/HouseList"
 import Loading from "../components/Loading"
 
 
+
 const Home = () => {
     const [loading, setLoading] = useState(true)
     const [houses, setHouses] = useState([])
