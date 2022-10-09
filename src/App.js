@@ -8,7 +8,7 @@ import SingleHouse from './pages/SingleHouse'
 //import component
 
 import Navbar from './components/Navbar'
-import SingleHouse from "./pages/SingleHouse";
+
 
 function App () {
     return (
