@@ -47,6 +47,14 @@
       "price": "4M",
       "contact": "07202435364",
       "image": "https://i.postimg.cc/ZnY1cyVM/image.jpg"
+    },
+    {
+      "location": "Kenya",
+      "category": "home",
+      "price": "120 M",
+      "contact": "123456",
+      "image": "https://i.postimg.cc/1XZ5LdCh/10016.jpg",
+      "id": 117
     }
-    ]
+  ]
 }
