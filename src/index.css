@@ -308,13 +308,7 @@ main {
     text-align: center;
     margin-bottom: 4rem;
   }
-  .underline {
-    height: 0.25rem;
-    width: 5rem;
-    background: var(--clr-primary-5);
-    margin-left: auto;
-    margin-right: auto;
-  }
+ 
   .container {
     width: 80vw;
     max-width: var(--fixed-width);
@@ -395,21 +389,7 @@ main {
   .next-btn:hover {
     color: var(--clr-primary-5);
   }
-  .random-btn {
-    margin-top: 0.5rem;
-    background: var(--clr-primary-10);
-    color: var(--clr-primary-5);
-    padding: 0.25rem 0.5rem;
-    text-transform: capitalize;
-    border-radius: var(--radius);
-    transition: var(--transition);
-    border-color: transparent;
-    cursor: pointer;
-  }
-  .random-btn:hover {
-    background: var(--clr-primary-5);
-    color: var(--clr-primary-1);
-  }
+
 
 
 
