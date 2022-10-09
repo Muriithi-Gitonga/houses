@@ -1,53 +1,52 @@
 {
-    "houses": [
-      {
-        "id": 111,
-        "location":"Kinoo",
-        "category": "2 bedroom",
-        "price": "2.3M",
-        "contact":"07202435364",
-        "image":"https://i.postimg.cc/Px0SLp0D/image.jpg"
-
-      },
-      {
-        "id": 112,
-        "location":"Juja",
-        "category": "Bedsitters",
-        "price": "4.3M",
-        "contact":"07102435364",
-        "image":"https://i.postimg.cc/Px0SLp0D/image.jpg"
-      },
-      {
-        "id": 113,
-        "location":"Ruiru",
-        "category": "1 bedroom",
-        "price": "0.3M",
-        "contact":"07092435364",
-        "image":"https://i.postimg.cc/Px0SLp0D/image.jpg"
-      },
-      {
-        "id": 114,
-        "location":"Nairobi",
-        "category": "3 bedroom",
-        "price": "10.3M",
-        "owner-contact":"07202435364",
-        "image": "https://i.postimg.cc/Px0SLp0D/image.jpg"
-      },
-      {
-        "id": 115,
-        "location":"Jamhuri",
-        "category": "5 bedroom",
-        "price": "20.3M",
-        "contact":"07202435364",
-        "image": "https://i.postimg.cc/prgJdwhJ/66d9f5afdc5337d3f9eac362b970c426.jpg"
-      },
-      {
-        "id": 116,
-        "location":"Kabiria",
-        "category": "3 bedroom",
-        "price": "4M",
-        "contact":"07202435364",
-        "image": "https://i.postimg.cc/ZnY1cyVM/image.jpg"
-      }
-    ]
+  "houses": [
+    {
+      "id": 111,
+      "location": "Kinoo",
+      "category": "2 bedroom",
+      "price": "2.3M",
+      "contact": "07202435364",
+      "image": "https://i.postimg.cc/Px0SLp0D/image.jpg"
+    },
+    {
+      "id": 112,
+      "location": "Juja",
+      "category": "Bedsitters",
+      "price": "4.3M",
+      "contact": "07102435364",
+      "image": "https://i.postimg.cc/Px0SLp0D/image.jpg"
+    },
+    {
+      "id": 113,
+      "location": "Ruiru",
+      "category": "1 bedroom",
+      "price": "0.3M",
+      "contact": "07092435364",
+      "image": "https://i.postimg.cc/Px0SLp0D/image.jpg"
+    },
+    {
+      "id": 114,
+      "location": "Nairobi",
+      "category": "3 bedroom",
+      "price": "10.3M",
+      "owner-contact": "07202435364",
+      "image": "https://i.postimg.cc/Px0SLp0D/image.jpg"
+    },
+    {
+      "id": 115,
+      "location": "Jamhuri",
+      "category": "5 bedroom",
+      "price": "20.3M",
+      "contact": "07202435364",
+      "image": "https://i.postimg.cc/prgJdwhJ/66d9f5afdc5337d3f9eac362b970c426.jpg"
+    },
+    {
+      "id": 116,
+      "location": "Kabiria",
+      "category": "3 bedroom",
+      "price": "4M",
+      "contact": "07202435364",
+      "image": "https://i.postimg.cc/ZnY1cyVM/image.jpg"
+    }
+  ]
 }

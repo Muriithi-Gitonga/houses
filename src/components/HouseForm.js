@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Form = () => {
+const Form = ({formSubmittedFunction}) => {
   const [form, setForm] = useState({
     location: "",
     category: "",
@@ -11,6 +11,17 @@ const Form = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    fetch("http://localhost:8002/houses/", {
+        method:'POST',
+        headers: {
+            'Content-type':'application/json',
+        },
+        body: JSON.stringify(form)
+    })
+    
+    formSubmittedFunction()
+   
   };
 
   return (
@@ -21,7 +32,7 @@ const Form = () => {
             Location
             <input
               type="text"
-              name="text"
+              name="Location"
               onChange={(e) =>
                 setForm((form) => ({ ...form, location: e.target.value }))
               }

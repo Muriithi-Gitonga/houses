@@ -7,6 +7,11 @@ import Loading from "../components/Loading"
 const Home = () => {
     const [loading, setLoading] = useState(true)
     const [houses, setHouses] = useState([])
+    const [form, setForm ] = useState(false)
+
+    const formSubmittedFunction = () => {
+        setForm(!form)
+    }
 
     useEffect(() => {
         setLoading(true)
@@ -14,7 +19,7 @@ const Home = () => {
         .then(r => r.json())
         .then(data => setHouses((houses) => data ))
         setLoading(false)
-    }, [])
+    }, [form])
 
     if (loading) {
         return <Loading />
@@ -22,7 +27,7 @@ const Home = () => {
 
     return (
         <main>
-            <HouseForm />
+            <HouseForm formSubmittedFunction={formSubmittedFunction} />
             <HouseList houses={houses}/>
         </main>
     )
