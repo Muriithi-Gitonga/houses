@@ -250,6 +250,51 @@ Variables
   }
 
 
+  .house-section {
+    text-align: center;
+  }
+
+  .house {
+    width: var(--smallWidth);
+    max-width: var(--fullWidth);
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  .house p {
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 1.8;
+  }
+
+  .house img {
+    border-radius: var(--mainBorderRadius);
+  }
+
+  .house span {
+    margin-right: 0.5rem;
+  }
+
+  .house-info {
+    padding-top: 2rem;
+  }
+
+  @media screen and (min-width: 992px) {
+    .house {
+      display: grid;
+      grid-template-columns: 2fr 3fr;
+      gap: 3rem;
+      align-items: center;
+    }
+    .house-info {
+      padding-top: 0;
+    }
+  }
+
+
+
+
+
 
 
 
