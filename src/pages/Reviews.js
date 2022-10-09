@@ -4,7 +4,7 @@ import { FaChevronLeft, FaChevronRight, FaQuoteRight } from "react-icons/fa";
 
 const Review = () => {
   const [index, setIndex] = useState(0);
-  const { name, job, image, text } = people[index];
+  const { name, title, image, text } = people[index];
 
   const checkNumber = (number) => {
     if (number > people.length - 1) {
@@ -42,7 +42,7 @@ const Review = () => {
         </span>
       </div>
       <h4 className="author">{name}</h4>
-      <p className="job">{job}</p>
+      <p className="title">{title}</p>
       <p className="info">{text}</p>
       <div className="button-container">
         <button className="prev-btn" onClick={prevPerson}>
