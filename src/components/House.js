@@ -12,7 +12,7 @@ const House = ({id,image,location,price}) => {
                 <h3>{location}</h3>
                 <h4>{price}</h4>
             </div>
-            <Link to={`/house/${id}`} className="btn btn-primary btn-detail">Details</Link>
+            <Link to={`/${id}`} className="btn btn-primary btn-detail">Details</Link>
         </article>
     )
 }
