@@ -21,7 +21,7 @@ const SingleHouse = () => {
         <section className="section house-section">
             <Link className="bt btn-primary" to='/'>back home</Link>
             <h2 className="section-title">{place}</h2>
-            <div className="house">
+            <div className="single-house">
                 <img src={picture} alt='houseimage'/>
                 <div className="house-info">
                 <p>
